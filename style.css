@@ -1,0 +1,135 @@
+.press-start-2p-regular{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+
+:root {
+    --black: #3b3f46;
+    --yellow: #fed053;
+    --white: #f7f7f7;
+    --green: #4D8B31
+}
+
+
+
+.barra{
+    height: 90px;
+    background-color: #B4B8AB;
+}
+
+.header{
+    background-color: #63585E;
+}
+
+
+.barracalcolatrice{
+    background-color:  #807e87;
+    height: 60px;
+    font-size: 40px;
+    color: var(--yellow);
+    overflow-wrap: break-word;
+    border: #fed053 1px solid;
+}
+.nero{
+    background-color: var(--black)
+}
+
+.calco{
+    height: 850px;
+    width: 750px;
+    border: 2px groove var(--yellow);
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    
+} 
+
+.tastigrandi{
+    width: 500px;
+    height: 60px;
+}
+
+.tastipiccoli{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3b3f46;
+    color: #fed053;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    font-size: 27px;
+    
+    
+}
+
+.bordo{
+    border-radius: 2%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    
+}
+
+.raised-button:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.16); /* Effetto rialzato più pronunciato */
+}
+
+.uguale{
+    background-color: #3b3f46;
+    color: #fed053;
+    font-size: 30px;
+    
+}
+
+.operazioni{
+    color: #3b3f46;
+    background-color: #fed053af;
+    font-size: 27px;
+    
+}
+
+.zero{
+    border-radius: 20%;
+    background-color: #3b3f46;
+    color: #fed053;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    font-size: 27px;
+    
+    
+}
+
+
+.foglio{
+    background-color: white !important; 
+    height: 20px;
+    
+}
+
+.height-expanded {
+    height: 400px; 
+    position: center;
+    transition: 5s;
+}
+
+.esp{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.testo{
+    color: #fed053;
+    font-size: 20px;
+    position: absolute;
+    border: #629460 2px ;
+    
+}
+
+.giallo {
+    color: #fed053;
+    
+}

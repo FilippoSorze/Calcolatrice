@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body class="nero"> 
+ 
+  
+  
+  <div class="container calco mt-4 mb-5 ">
+    <div class="row justify-content-around mb-3 mt-3">
+      
+      <div class="row mb-2">
+        
+        <div class="mt-2">
+          <div id="tastipremuti" style="height: 120px;" class="col-12 barracalcolatrice press-start-2p-regular"> </div>
+          
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="row mt-5 mb-3">
+        <div class="col-12 d-flex justify-content-start" >
+          <button class="mx-4 bordo operazioni" style="width: 152px; height: 60px;"   onclick="cancella()">C</button>
+          <button class="mx-4 bordo operazioni" style="width: 152px; height: 60px;"   onclick="cancellaUltimo()"> Del </button>
+          <button class="mx-4 bordo operazioni"  style="width: 152px; height: 60px;"   onclick="aggiungi('%')">%</button>
+<div>
+          <button class="mx-5 bordo operazioni" style="width: 152px; height: 60px;"  onclick="radicequadrata('')">√ </button>
+        </div>
+        </div>
+        
+        
+        
+      </div>
+      
+      
+      <div class="row">
+        
+        <div class="col-12 d-flex justify-content-between">
+          <div>
+          <button id="btn1" class="mx-4 tastipiccoli"  onclick="aggiungi('1')">1</button>
+          <button id="btn2" class="mx-4 tastipiccoli" onclick="aggiungi('2')">2</button>
+          <button id="btn3" class="mx-3 tastipiccoli" onclick="aggiungi('3')">3</button>
+        </div>
+          <button class="mx-5 bordo operazioni" style="width: 152px; height: 100px;"  onclick="aggiungi('+')">+</button>
+          
+        </div>
+        
+        
+      </div>
+      <div class="row justify-content-center  mt-3">
+        
+        
+        
+        
+        <div class="col-12 d-flex justify-content-between">
+          <div></div>
+          <button id="btn4" class="mx-4 tastipiccoli" onclick="aggiungi('4')">4</button>
+          <button id="btn5" class="mx-4 tastipiccoli" onclick="aggiungi('5')">5</button>
+          <button  id="btn6"class="mx-4 tastipiccoli" onclick="aggiungi('6')">6</button>
+          
+          <button class="mx-5 bordo operazioni" style="width: 152px;" onclick="aggiungi('-')">-</button>
+          
+          
+          
+        </div>
+      </div>
+      <div class="row justify-content-center mb-2 mt-3">
+        <div class="col-12 d-flex justify-content-between">
+          <button id="btn7" class="mx-4 tastipiccoli" onclick="aggiungi('7')">7</button>
+          <button  id="btn8" class="mx-4 tastipiccoli"onclick="aggiungi('8')">8</button>
+          <button  id="btn9"  class="mx-4 tastipiccoli" onclick="aggiungi('9')">9</button>
+          <button  class="mx-5 bordo operazioni" style="width: 152px;" onclick="aggiungi('*')">X</button>
+          
+          
+        </div>
+      </div>
+      
+      <div class="row mb-3 mt-3">
+        <div class="col-4 d-flex justify-content-between" style="width: 476px;">
+          <button id="btn0" class="mx-4 tastigrandi bordo zero"   onclick="aggiungi('0')">0</button>
+          <button class="mx-4 tastigrandi bordo zero"   onclick="aggiungi('.')">.</button>
+        </div>
+        
+        <div class="col-4 d-flex justify-content-start">
+          <button class="mx-4 bordo raised-button:hover operazioni "    style="width: 152px;"  onclick="aggiungi('/')">÷</button>
+        </div>
+        
+        
+      </div>
+        
+        
+        <div class="row justify-content-center mt-3">
+          <div class="col-12 d-flex justify-content-start">
+            <button style="width: 800px; height: 60px;" class="uguale "  onclick="calcola()">=</button>
+            
+            
+            
+          </div>
+        </div>
+        
+      </div>
+      
+    
+      <div class="container-fluid mb-5">
+        <div class="row mb-5">
+          <div class="col-12 d-flex mb-3 justify-content-end"> <h6 class="testo">Coded by: <a href="https://www.linkedin.com/in/filippo-sorze-72b136278/" class="giallo"> Filippo Sorze</a></h6></div>
+        </div>
+        
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
